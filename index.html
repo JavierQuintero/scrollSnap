@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="" content="">
+    <style type="text/css" media="all">
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Sans-Serif;
+    }
+      section{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        scroll-snap-align: start;
+      }
+      .cont{
+        scroll-snap-type: y mandatory;
+        overflow-y: scroll;
+        height: 100vh;
+        
+      }
+      .uno{
+        background: rgba(100,0,0,.8);
+      }
+      .dos{
+        background: rgba(0,100,0,.8);
+      }
+      .tres{
+        background: rgba(0,0,100,.8);
+      }
+      .cuatro{
+        background: rgba(0,0,0,.8);
+        color: #fff;
+      }
+    </style>
+    <title></title>
+  </head>
+  <body>
+    <div class="cont">
+      <section class="uno">
+        primero
+      </section>
+      <section class="dos">
+        segundo
+      </section>
+      <section class="tres">
+        tercero
+      </section>
+      <section class="cuatro">
+        cuarto
+      </section>
+    </div>
+  </body>
+</html>
